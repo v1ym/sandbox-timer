@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app = "myApp" ng-controller = "MainController">
+<head>
+  <title> {{ title }} </title>
+  <link rel="stylesheet" type = "text/css" href = "./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src = "./app.js"></script>
+  <script src = "./maincontroller.js"></script>
+  <script src = "./main.js"></script>
+</head>
+<body >
+<div class= "main" >
+  <div class= "container">
+    <h1 id="banner"> 2m 30s </h1>
+
+    <div class="box" onClick="stop()">
+      <p> stop </p>
+    </div>
+
+    <div class="box" onClick="start()">
+      <p> start </p>
+    </div>
+
+
+  </div>
+</div>
+
+
+</body>
+</html>
